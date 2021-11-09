@@ -1,0 +1,17 @@
+spring:
+  flyway:
+    enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://mysqlserverurl.com?autoReconnect=true&useSSL=false&character_set_server=utf8mb4&useUnicode=yes&characterEncoding=UTF-8
+    username: user
+    password: secret
+
+server:
+  port: 80
