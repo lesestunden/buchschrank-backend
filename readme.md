@@ -6,7 +6,7 @@ set database connection properties in application.yml
 
 * start in ide: ```gradle bootRun```
 * build docker image: ```bootBuildImage```
-* run docker image: ```docker run --rm -p 8080:8080 buchschrank:0.0.1-SNAPSHOT```
+* run docker image: ```docker run --rm -p 8080:80 buchschrank:0.0.1-SNAPSHOT```
 
 # Endpoints
 
